@@ -4,6 +4,10 @@
 .list {
   list-style: none;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -17,7 +21,6 @@
   color: #000;
 }
 .menu-item-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -29,7 +32,6 @@
   color: #2196f3;
 }
 .contacts-mailto-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +43,6 @@
   color: #2196f3;
 }
 .contacts-mobile-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,8 +53,17 @@
 .contacts-mobile-link:focus {
   color: #2196f3;
 }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
 .button-order {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -64,4 +74,63 @@
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+}
+.advantages-title {
+  color: white;
+}
+.advantages-item-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages-item-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.headlines {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-post {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.contacts-footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.contacts-footer-address-link:hover,
+.contacts-footer-address-link:focus {
+  color: #2196f3;
+}
+.addcontacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+.addcontacts:hover,
+.addcontacts:focus {
+  color: #2196f3;
 }
