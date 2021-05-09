@@ -1,3 +1,7 @@
+:root {
+  --akcent-color: #2196f3;
+  --headlines-color: #212121;
+}
 .link {
   text-decoration: none;
 }
@@ -6,30 +10,37 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: #757575;
 }
-.logo {
+.headlines {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headlines-color);
+}
+.logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--akcent-color);
   text-transform: capitalize;
 }
-.part-logo {
+.part-logo-link {
   color: #000;
 }
-.menu-item-link {
+.menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.menu-item-link:hover,
-.menu-item-link:focus {
-  color: #2196f3;
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--akcent-color);
 }
 .contacts-mailto-link {
   font-weight: 500;
@@ -40,7 +51,7 @@ body {
 }
 .contacts-mailto-link:hover,
 .contacts-mailto-link:focus {
-  color: #2196f3;
+  color: var(--akcent-color);
 }
 .contacts-mobile-link {
   font-weight: 500;
@@ -51,7 +62,7 @@ body {
 }
 .contacts-mobile-link:hover,
 .contacts-mobile-link:focus {
-  color: #2196f3;
+  color: var(--akcent-color);
 }
 .hero-title {
   font-weight: 900;
@@ -64,51 +75,82 @@ body {
   background-color: #2f303a;
 }
 .button-order {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background: var(--akcent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.button-order:hover,
+.button-order:focus {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
-.advantages-title {
-  color: white;
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background: var(--akcent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
-.advantages-item-title {
+.advantages-title {
+  display: none;
+}
+.advantages-subtitle {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--headlines-color);
 }
-.advantages-item-paragraph {
+.advantages-paragraph {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
 }
-.headlines {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team-employee {
+.team-employee-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--headlines-color);
 }
-.team-post {
+.team-post-paragraph {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 .contacts-footer-address-link {
   font-weight: 400;
@@ -120,9 +162,9 @@ body {
 }
 .contacts-footer-address-link:hover,
 .contacts-footer-address-link:focus {
-  color: #2196f3;
+  color: var(--akcent-color);
 }
-.addcontacts {
+.addcontacts-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -130,7 +172,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
 }
-.addcontacts:hover,
-.addcontacts:focus {
-  color: #2196f3;
+.addcontacts-link:hover,
+.addcontacts-link:focus {
+  color: var(--akcent-color);
 }
