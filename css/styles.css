@@ -1,4 +1,5 @@
 :root {
+  --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --akcent-color: #2196f3;
   --headlines-color: #212121;
@@ -10,7 +11,7 @@
   list-style: none;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   color: #757575;
 }
 .headlines {
@@ -43,26 +44,15 @@ body {
 .menu-link:focus {
   color: var(--akcent-color);
 }
-.contacts-mailto-link {
+.contacts-header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contacts-mailto-link:hover,
-.contacts-mailto-link:focus {
-  color: var(--akcent-color);
-}
-.contacts-mobile-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.contacts-mobile-link:hover,
-.contacts-mobile-link:focus {
+.contacts-header-link:hover,
+.contacts-header-link:focus {
   color: var(--akcent-color);
 }
 .hero-title {
