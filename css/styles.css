@@ -1,4 +1,5 @@
 :root {
+  --secondary-font: 'Raleway', sans-serif;
   --akcent-color: #2196f3;
   --headlines-color: #212121;
 }
@@ -20,7 +21,7 @@ body {
   color: var(--headlines-color);
 }
 .logo-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
