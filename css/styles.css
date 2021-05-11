@@ -6,6 +6,9 @@
   --additional-color: #757575;
   --akcent-text-color: #2196f3;
 }
+.menu-list .link.current {
+  color: var(--akcent-text-color);
+}
 .link {
   text-decoration: none;
 }
