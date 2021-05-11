@@ -19,19 +19,18 @@
 body {
   font-family: var(--main-font);
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 .headlines {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .logo-link {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--akcent-text-color);
   text-transform: capitalize;
 }
@@ -68,7 +67,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-color);
   background-color: #2f303a;
 }
@@ -123,13 +121,11 @@ body {
 .advantages-subtitle {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantages-paragraph {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--additional-color);
 }
 .team-name-title {
@@ -137,13 +133,11 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-post-paragraph {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--additional-color);
 }
 /*==================END INDEX==================*/
@@ -154,7 +148,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
   background: #f5f4fa;
   border: none;
@@ -175,11 +168,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
-
 .filter-portfolio-paragraph {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--additional-color);
 }
 .filter-portfolio-container-bg {
